@@ -7,8 +7,11 @@ let palabraSecreta = "computadora";
 console.log("Adivina la palabra secreta");
 palabraSecreta = leer();
 
-if ()) {
+
+if (palabraSecreta=="computadora") {
+    console.log("Felicitaciones acertaste!");
     
-} else {
+} else if (palabraSecreta!="computadora") {
+    console.log("Intenta nuevamente");
     
-}
+} 
